@@ -1,7 +1,7 @@
 def solve(n):
-    unit_places=["zero","one","two","three","four","five","six","seven","eight","nine"]
+    unit_places=["","one","two","three","four","five","six","seven","eight","nine"]
     tenth_places=["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"]
-    tens_places=["","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]
+    tens_places=["","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]
     if 1<=n<10:
         return unit_places[n]
     elif 10<=n<20:
